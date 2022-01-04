@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 body {
   background: #fcd3df;
   height: 100vh;
@@ -44,7 +46,8 @@ body {
 }
 
 .latin {
-  font-family: "Brush Script MT";
+  font-family: 'Great Vibes';
+  font-size: 42px;
 }
 
 .text-center {
@@ -60,7 +63,7 @@ body {
   margin-top: 16px;
 }
 .info {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 16px;
 }
 .water-mark a {
@@ -117,6 +120,12 @@ body {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+@media only screen and (max-width: 600px) {
+  .info {
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  .text-center {font-size: 16px}
+  .latin {font-size: 42px;}
 }
